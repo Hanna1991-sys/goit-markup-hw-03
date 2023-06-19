@@ -1,0 +1,190 @@
+:root {
+    /* Font */
+    --primary-font: Roboto, sans-serif;
+    --second-font: Raleway, sans-serif;
+    /* Color */
+    --primary-color: #FFFFFF;
+    --primary-text: #434455;
+    --primary-header: #2E2F42;
+    --color-logo-blue: #4D5AE5;
+    --color-logo-wit: #F4F4FD;
+    --color-nav: #404bbf;
+}
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+body {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+}
+/* Reset */
+.list,
+ul,
+ol {
+    list-style: none;
+}
+.link,
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.logo {
+    font-family: var(--second-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-logo-blue);
+}
+.logo-black {
+    color: var(--primary-header);
+}
+.header-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-header);
+}
+.nav:hover,
+.nav:focus,
+.contact:hover,
+.contact:focus {
+    color: var(--color-nav);
+}
+
+.header-address { 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
+    color: var(--primary-text);
+    font-style: normal;
+}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+.hero {
+ background-color: var(--primary-header);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--primary-color);
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    font-family: var(--primary-font);
+    background-color: var(--color-logo-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.hero-button:hover{
+    background-color: var(--color-nav);
+}
+.hero-button:focus{
+    background-color: var(--color-nav);
+}
+
+
+/**
+  |============================
+  | Styles first section
+  |============================
+*/
+.header-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-header);
+}
+.par-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Styles second section
+  |============================
+*/
+.second-third-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-header);
+}
+/**
+  |============================
+  | Styles third section
+  |============================
+*/
+.third-sec{
+    background-color: var(--color-logo-wit);
+}
+.color-sec{
+    background-color:var(--primary-color);
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+    background-color: var(--primary-header);
+}
+.logo-wit {
+    color: var(--color-logo-wit);
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-logo-wit);
+}
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+.button-port{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-logo-blue);
+    background-color: var(--color-logo-wit);
+    cursor: pointer;
+}
+.button-port:hover {
+    background-color: #404BBF;
+    color: var(--primary-color);
+}
+.button-port:focus {
+    background-color: #404BBF;
+    color: var(--primary-color);;
+}
