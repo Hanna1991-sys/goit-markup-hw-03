@@ -185,7 +185,7 @@ img {
     padding-bottom: 120px;
 }
 .visually-hidden {
-
+    visibility: hidden;
 }
 
 .first-container {
