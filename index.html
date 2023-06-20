@@ -58,36 +58,38 @@
     <main>
       <!--Hero section-->
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-button" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-button" type="button">Order Service</button>
+        </div>
       </section>
       <!--First section-->
       <section class="first-sec">
         <div class="container">
-          <h2 hidden>Info</h2>
-          <ul class="list">
-            <li>
+          <h2 class="header-h2" hidden>Info</h2>
+          <ul class="first-container list">
+            <li class="first-li">
               <h3 class="header-h">Strategy</h3>
               <p class="par-text">
                 Our goal is to identify the business problem to walk away with the perfect and
                 creative solution.
               </p>
             </li>
-            <li>
+            <li class="first-li">
               <h3 class="header-h">Punctuality</h3>
               <p class="par-text">
                 Bring the key message to the brand's audience for the best price within the shortest
                 possible time.
               </p>
             </li>
-            <li>
+            <li class="first-li">
               <h3 class="header-h">Diligence</h3>
               <p class="par-text">
                 Research and confirm brands that present the strongest digital growth opportunities
                 and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="first-li">
               <h3 class="header-h">Technologies</h3>
               <p class="par-text">
                 Design practice focused on digital experiences. We bring forth a deep passion for
@@ -101,14 +103,14 @@
       <section class="second-sec" id="portf">
         <div class="container">
           <h2 class="second-third-title">What are we doing</h2>
-          <ul class="list">
-            <li>
+          <ul class="second-container list">
+            <li class="second-li">
               <img src="./images/main/second-section/img-1.jpg" alt="Computer" width="360" />
             </li>
-            <li>
+            <li class="second-li">
               <img src="./images/main/second-section/img-2.jpg" alt="Phone" width="360" />
             </li>
-            <li>
+            <li class="second-li">
               <img src="./images/main/second-section/img-3.jpg" alt="Laptop" width="360" />
             </li>
           </ul>
@@ -118,46 +120,58 @@
       <section class="third-sec" id="cont">
         <div class="container">
           <h2 class="second-third-title">Our Team</h2>
-          <ul class="list">
+
+          <ul class="third-container list">
             <li class="color-sec">
-              <img
-                src="./images/main/third-section/Guerrero.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <h3 class="header-h">Mark Guerrero</h3>
-              <p class="par-text">Product Designer</p>
+              <div class="employee-card">
+                <img
+                  src="./images/main/third-section/Guerrero.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="card-h header-h">Mark Guerrero</h3>
+                <p class="card-par par-text">Product Designer</p>
+              </div>
             </li>
+
             <li class="color-sec">
-              <img
-                src="./images/main/third-section/Ford.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <h3 class="header-h">Tom Ford</h3>
-              <p class="par-text">Frontend Developer</p>
+              <div class="employee-card">
+                <img
+                  src="./images/main/third-section/Ford.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="card-h header-h">Tom Ford</h3>
+                <p class="card-par par-text">Frontend Developer</p>
+              </div>
             </li>
+
             <li class="color-sec">
-              <img
-                src="./images/main/third-section/Garcia.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <h3 class="header-h">Camila Garcia</h3>
-              <p class="par-text">Marketing</p>
+              <div class="employee-card">
+                <img
+                  src="./images/main/third-section/Garcia.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="card-h header-h">Camila Garcia</h3>
+                <p class="card-par par-text">Marketing</p>
+              </div>
             </li>
+
             <li class="color-sec">
-              <img
-                src="./images/main/third-section/Wilson.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <h3 class="header-h">Daniel Wilson</h3>
-              <p class="par-text">UI Designer</p>
+              <div class="employee-card">
+                <img
+                  src="./images/main/third-section/Wilson.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+                <h3 class="card-h header-h">Daniel Wilson</h3>
+                <p class="card-par par-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -166,7 +180,9 @@
     <!--Footer-->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="./index.html">Web<span class="logo-wit">Studio</span></a>
+        <a class="logo-footer logo link" href="./index.html"
+          >Web<span class="logo-wit">Studio</span>
+        </a>
         <p class="footer-paragraph">
           Increase the flow of customers and sales for your business with digital marketing & growth
           solutions.
