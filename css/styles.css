@@ -332,7 +332,7 @@ img {
 } 
 
 .button-port:focus,
-.button-port:hover:{
+.button-port:hover{
     background-color: #404BBF;
     color: var(--primary-color);
     border: 1px solid transparent;
